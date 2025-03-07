@@ -1,0 +1,29 @@
+{
+  "name": "create-tslib",
+  "version": "0.1.0",
+  "description": "Create a TypeScript library workspace in seconds!",
+  "main": "dist/main.js",
+  "types": "dist/main.d.ts",
+  "module": "dist/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsup"
+  },
+  "keywords": [],
+  "author": "Leonard Lesinski",
+  "license": "MIT",
+  "packageManager": "pnpm@10.5.2",
+  "type": "module",
+  "devDependencies": {
+    "@types/node": "^22.13.9",
+    "terser": "^5.39.0",
+    "tsup": "^8.4.0",
+    "tsx": "^4.19.3",
+    "typescript": "^5.8.2"
+  },
+  "dependencies": {
+    "@inquirer/confirm": "^5.1.6",
+    "@inquirer/input": "^4.1.6",
+    "chalk": "^5.4.1"
+  }
+}

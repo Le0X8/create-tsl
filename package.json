@@ -1,10 +1,25 @@
 {
-  "name": "create-tslib",
+  "name": "create-tsl",
   "version": "0.1.0",
   "description": "Create a TypeScript library workspace in seconds!",
   "main": "dist/main.js",
   "types": "dist/main.d.ts",
   "module": "dist/main.js",
+  "bin": {
+    "create-tsl": "bin/create-tsl"
+  },
+  "files": [
+    "dist",
+    "LICENSE",
+    "README.md",
+    "pnpm-lock.yaml",
+    "package.json",
+    "bin"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Le0X8/create-tsl"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsup"

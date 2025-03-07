@@ -1,9 +1,9 @@
-# create-tslib
+# create-tsl
 
 ## Installation
 
 ```bash
-npm create tslib@latest
+npm create tsl@latest
 ```
 
 ## Features

@@ -1,5 +1,7 @@
 # create-tsl
 
+**Note:** This will be a preset for [create-idea](https://github.com/Le0X8/create-idea) and this package will just be a wrapper in the future.
+
 ## Installation
 
 ```bash
